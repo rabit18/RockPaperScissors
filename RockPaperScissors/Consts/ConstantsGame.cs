@@ -28,6 +28,7 @@
         public const string ITEMS_TITLE = "Items";
         public const string NEW_ITEM_TITLE = "New Item";
         public const string NEW_PLAYER_TITLE = "New Player";
+        public const string NO_DATA_MESSAGE = "Players or Items are not created yet";
         public const string PLAYER_ALREADY_EXISTS_MESSAGE = "\nThe player's name already exists, enter another:";
         public const string PLAYERS_TITLE = "Players";
         public const string PRESS_KEY_MESSAGE = "\n\nPress a key for continue...";

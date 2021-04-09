@@ -383,6 +383,17 @@ namespace RockPaperScissors.UI
         /// Print winner of the game
         /// </summary>
         /// <param name="winner"></param>
+        public static void PrintNoData()
+        {
+            Console.Clear();
+            Console.WriteLine(ConstantsGame.NO_DATA_MESSAGE);
+            PrintPressAKey();
+        }
+
+        /// <summary>
+        /// Print winner of the game
+        /// </summary>
+        /// <param name="winner"></param>
         public static void PrintWinner(string winner)
         {
             Console.Clear();

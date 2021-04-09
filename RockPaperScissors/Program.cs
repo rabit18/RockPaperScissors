@@ -71,6 +71,12 @@ namespace RockPaperScissors
         /// </summary>
         private static void StartGame()
         {
+            if (Game.GetPlayers().Count.Equals(0) || Game.GetItems().Count.Equals(0))
+            {
+                BoardUI.PrintNoData();
+                return;
+            }
+
             Game.StartGame();
             do
             {
